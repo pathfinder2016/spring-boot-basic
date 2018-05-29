@@ -6,6 +6,9 @@ public class Version {
     private static int minor = 0;
     private static int patch = 0;
 
+    public Version() {
+    }
+
     static void reset() {
         major = 1;
         minor = 0;
