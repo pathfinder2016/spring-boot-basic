@@ -40,6 +40,4 @@ public class FibTest {
         int fibValue = fib.queryValueByIndex(-1);
         assertThat(fibValue).isEqualTo(0);
     }
-
-
 }
